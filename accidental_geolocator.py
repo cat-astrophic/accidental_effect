@@ -8,7 +8,6 @@ import pandas as pd
 # Project directory
 
 direc = 'D:/accidental_effect/'
-direc = 'C:/Users/macary/Documents/accidental_effect/'
 
 # Reading in the house data
 
