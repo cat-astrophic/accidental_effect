@@ -8,6 +8,7 @@ import pandas as pd
 # Project directory
 
 direc = 'D:/accidental_effect/'
+direc = 'C:/Users/macary/Documents/accidental_effect/'
 
 # Reading in the house data
 
@@ -43,7 +44,7 @@ w_lons = []
 
 for i in range(len(h_addresses)):
     
-    print('Harrisonburg address ' + str(1+i) + ' of 5,613.......')
+    print('Harrisonburg address ' + str(1+i) + ' of 5,612.......')
     
     try:
         
@@ -104,7 +105,7 @@ wlon = []
 
 for i in range(len(h)):
     
-    print('Transaction ' + str(1+i) + ' of 15,507.......')
+    print('Transaction ' + str(1+i) + ' of 15,525.......')
     hlat.append(h_lats[h_addresses.index(h.Address[i])])
     hlon.append(h_lons[h_addresses.index(h.Address[i])])
 
@@ -116,7 +117,7 @@ for i in range(len(s)):
 
 for i in range(len(w)):
     
-    print('Transaction ' + str(1+i) + ' of 31,363.......')
+    print('Transaction ' + str(1+i) + ' of 31,445.......')
     wlat.append(w_lats[w_addresses.index(w.Address[i])])
     wlon.append(w_lons[w_addresses.index(w.Address[i])])
 
